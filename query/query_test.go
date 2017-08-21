@@ -6752,7 +6752,6 @@ lossy                          : string @index(term) .
 `
 
 func TestMain(m *testing.M) {
-	x.SetTestRun()
 	x.Init()
 
 	dir, err := ioutil.TempDir("", "storetest_")
